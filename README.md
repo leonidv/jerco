@@ -9,4 +9,21 @@
 - импорт структуры сети из Excel
 - построение графиков
 
+Используемые языки разработки:
+* Java 8 (jerco-api)
+* Groovy (jerco-gui)
+
 Подробнее см. Диссертация.pdf, стр 135-144.
+
+## Сборка 
+
+Необходимо установленное ПО:
+* JDK версии 1.8 и выше
+* maven версии 3.1 и выше
+
+1. git clone --recursive git@github.com:leonidv/jerco.git
+2. mvn clean install
+3. cd jerco-gui
+4. mvn assembly:assembly
+
+Собранные дистрибутивы находятся в папке jerco-gui/target (имя файлов выводится в результате работы команды mvn assembly:assembly).
