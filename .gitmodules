@@ -1,0 +1,9 @@
+[submodule "lvswing"]
+	path = lvswing
+	url = git@github.com:leonidv/lvswing.git
+[submodule "jerco-api"]
+	path = jerco-api
+	url = git@github.com:leonidv/jerco-api.git
+[submodule "jerco-gui"]
+	path = jerco-gui
+	url = git@github.com:leonidv/jerco-gui.git
