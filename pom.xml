@@ -6,7 +6,7 @@
 	<version>1.1-SNAPSHOT</version>
 	
 	<packaging>pom</packaging>
-	<name>jerco-</name>
+	<name>jerco</name>
 	<description>Percolation simulator written in Java platfrom. Allow to create regular lattice (rectangle, Kagome, etc) and free-structure network. </description>
 
 	<modules>
